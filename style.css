@@ -1,13 +1,15 @@
 body {
     font-size: 15px;
     margin: 0;
-    background-color: #009bd6;
+
+    background-image: url(&quot;https://pbs.twimg.com/media/FuWgHhdXwAEu6-v.jpg&quot;);
+    background-size: cover;
 }
 .naslov {
   display: flex;
   justify-content: center;
   height: 100px;
-  background-color: #00415a;
+  background-color: #00415aaa;
 }
 h1{
   color: #001f2b;
@@ -23,7 +25,7 @@ h1{
   flex-direction:row;
   margin: 15px 10px 10px 10px;
   border-radius: 1rem;
-  background-color: #00719c;
+  background-color: #00719caa;
   
   
   
@@ -39,5 +41,5 @@ h1{
   flex-direction: column;
   margin: 15px 10px 10px 10px;
   border-radius: 1rem;
-  background-color: #00719c;
+  background-color: #00719caa;
 }
